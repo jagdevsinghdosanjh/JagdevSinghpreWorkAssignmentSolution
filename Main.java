@@ -14,12 +14,11 @@ public class Main
 	    r=temp%10;
 	    temp=temp/10;
 	    sum=sum*10+r;
-	    System.out.println("Temp="+temp+"and Sum="+sum);
 	    }
 		if(sum==num)
-			System.out.println("Number entered="+num+"="+sum+" is a Palindrome");
+			System.out.println("Number entered="+num +" is a Palindrome");
 		else
-			System.out.println("Number entered="+num+"="+sum+"is not a Palindrome");
+			System.out.println("Number entered="+num+ "is not a Palindrome");
 	}
 		//function to print pattern
 	public void printPattern() 
@@ -68,7 +67,7 @@ public class Main
 		//initialize the first and second values as 0,1 respectively.
 		long first=0,second=1,next,i,count;
 		System.out.println("Enter the total terms of Fibonacci Series");
-	    count=sc.nextInt();//count is the total number of terms in FS
+	    count=sc.nextInt();//count is the total number of terms in Fibonaccie Series.
 		System.out.print(first+" "+second);//printing 0 and 1    
 		    
 		 for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
